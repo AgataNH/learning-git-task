@@ -8,3 +8,4 @@ for key, value in new_dict.items():
     print(f"Idę do {key} i kupuję tam {value}")
 count = sum(map(len, new_dict.values()))
 print(f"W sumie kupuję {count} produktów")
+print("Specjalne pozdrowienia")
