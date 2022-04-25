@@ -1,5 +1,5 @@
 shopping_dict = {
-    "piekarnia": ["chleb", "bułki", "pączek"],
+    "piekarnia": ["chleb", "rogal", "pączek"],
     "warzywniak": ["marchew", "seler", "pietruszka"]
 }
 shopping_dict = {key: [ele.capitalize() for ele in shopping_dict[key]] for key in shopping_dict}
